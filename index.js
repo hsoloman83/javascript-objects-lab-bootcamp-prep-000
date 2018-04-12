@@ -1,15 +1,11 @@
 var recipes = {
   
 }
-function updateObjectWithKeyAndValue(object, key, value){
-  object[key] = songTitle
-  return playlist
+function updateObjectWithKeyAndValue(recipes, key, value){
+  recipes[key] = value
+  return recipes
 }
 
-function removeFromPlaylist(playlist, artistName){
-  delete playlist[artistName];
-  return playlist
-}
 
   describe('updateObjectWithKeyAndValue(object, key, value)', function() {
     it('returns an object with the orignal key value pairs and the new key value pair', function() {
