@@ -2,7 +2,7 @@ var recipes = {
   
 }
 function updateObjectWithKeyAndValue(object, key, value){
-  playlist[artistName] = songTitle
+  object[key] = songTitle
   return playlist
 }
 
