@@ -16,14 +16,14 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return object
 }
 
-var obj = { foo: 'bar' }
+// var obj = { foo: 'bar' }
  
-var newObj = Object.assign({}, obj)
+// var newObj = Object.assign({}, obj)
  
-newObj // { foo: 'bar' }
+// newObj // { foo: 'bar' }
  
-delete newObj.foo // true
+// delete newObj.foo // true
  
-newObj // {}
+// newObj // {}
  
-obj
+// obj
